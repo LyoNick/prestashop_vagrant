@@ -25,6 +25,10 @@ Now grab copy of the Vagrant box that we'll use.  You'll only have to do this on
 
     vagrant box add chef/ubuntu-15.04
 
+While waiting the box to be downloaded, this is an opportunity to customize the 'Vagrantfile' with a text editor.
+this step can be skipped if you want to use as is.
+As an example for a customization i have set the number of cpus to 4 and the memory to 2048 for the VirtualBox provider, use it as a guide line.
+
 Now fire up the vagrant. The next two words will start up the box you just downloaded and run the commands in bootstrap.sh within that box, which will grab and setup everything you need to run PrestaShop on that vagrant:
 
     vagrant up
