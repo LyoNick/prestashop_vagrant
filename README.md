@@ -17,6 +17,9 @@ the 2 humble files in this repository, a nice isolated PrestaShop development en
 ## Installation
 First, download and install [VirtualBox](http://www.virtualbox.org) and [Vagrant](http://www.vagrantup.com).
 
+Now you need a folder containing this repo, specifically the 2 files: `Vagrantfile` and `bootstrap.sh`
+you can either download them manually or use git to clone them i.e: `git clone https://github.com/LyoNick/prestashop_vagrant prestashop-dev` choose the folder name you like instead of `prestashop-dev`
+
 Then open up a terminal window and `cd` into the directory containing this README and the files Vagrantfile and bootstrap.sh:
 
     cd directory_containing_vagrantfile
